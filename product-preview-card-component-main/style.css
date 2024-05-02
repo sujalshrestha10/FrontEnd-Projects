@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600&family=Montserrat:wght@500;800&family=Roboto+Slab&family=Sono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Montserrat:ital,wght@0,800;1,500&family=Roboto+Slab&family=Sono:wght@500&display=swap");
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Sono', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 30px auto;
+  padding: 0 30px;
+}
+.grid {
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.img img {
+  max-width: 100%;
+  display: inherit;
+}
+.content {
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content_1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+.content_2 {
+  font-size: 34px;
+  line-height: 1em;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  text-transform: capitalize;
+}
+.content_3 {
+  color: hsl(228, 12%, 48%);
+  line-height: 2em;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.currentprice {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 25px;
+}
+p.oldprice {
+  font-family: "Fraunces", serif;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+button.cart {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+  padding: 12px 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+button.cart:hover {
+  background-color: hsl(158, 36%, 23%);
+}
+.cart img {
+  padding-right: 19px;
+}

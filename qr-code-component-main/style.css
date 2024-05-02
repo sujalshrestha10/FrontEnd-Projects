@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600&family=Montserrat:wght@500;800&family=Outfit:wght@400;700&family=Roboto+Slab&family=Sono:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+.container {
+  max-width: 360px;
+  margin: auto;
+}
+
+.box {
+  background-color: hsl(0, 0%, 100%);
+  padding: 12px 12px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 1em;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.text {
+  padding: 22px 10px;
+}
+.text_1 {
+  padding-bottom: 15px;
+  color: hsl(220, 15%, 55%);
+}
+.attribution {
+  margin: 2em;
+}
+a {
+  text-decoration: none;
+}
